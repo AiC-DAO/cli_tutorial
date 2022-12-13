@@ -32,7 +32,7 @@
 
 可以看到目前节点信息是**本地节点**，需要将其改为**主网节点**。但要去哪里找主网节点信息？
 
-Cosmos每条链的基本信息(包括主网测试网)都在此Github仓库维护：[cosmos/chain-registry (github.com)](https://github.com/cosmos/chain-registry)
+Cosmos每条链的基本信息(包括主网测试网)都在此Github仓库维护：[cosmos/chain-registry](https://github.com/cosmos/chain-registry)
 
 使用其他应用链同理，到该仓库找链信息/节点信息即可。
 
@@ -88,7 +88,7 @@ contract_info:
 
 可以看到`code ID`为5。
 
-有了该ID，也可以查合约地址，指令：
+有了该ID，也可以查合约基本信息，指令：
 
 ```bash
 teritorid q wasm code-info 5
@@ -133,7 +133,7 @@ pagination:
   total: "0"
 ```
 
-上述是查看合约在链上的基本信息，也可以查询合约自己的状态信息：
+上述是查看合约在链上的基本信息，也可以查询合约自己的状态信息。
 
 如指令：
 
