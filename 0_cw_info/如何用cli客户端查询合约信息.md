@@ -12,7 +12,7 @@
 
 到Teritori的Github：[teritori-chain](https://github.com/TERITORI/teritori-chain/tree/main/mainnet/teritori-1)，上面有详细的安装信息，该教程是教用户如何跑节点的，但我们不需要跑节点，因此无需走完全部流程，到下图的步骤即可：
 
-![image-20221213213123259](.\src\image-20221213213123259.png)
+![image-20221213213123259](src/image-20221213213123259.png)
 
 ## 配置主网节点信息
 
